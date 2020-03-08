@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">GPM</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_the_chat_up_app">Welcome To The Chat Up App</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="login_to_my_account">Login to my account</string>
+    <string name="need_a_new_account">Need a new account?</string>
+    <string name="default_notification_channel_id">Prashant_CH_01</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="names">
+        <item>Select your Department</item>
+        <item>IT</item>
+        <item>CO</item>
+        <item>EC</item>
+        <item>CE</item>
+        <item>ME</item>
+        <item>IS</item>
+        <item>EE</item>
+    </string-array>
+
+    <string-array name="shifts">
+        <item>Select your shift</item>
+        <item>First</item>
+        <item>Second</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Select your year</item>
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+    </string-array>
+
+    <string-array name="yearNumber">
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+    </string-array>
+
+
+    <string-array name="yearText">
+        <item>Select your admission year</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+    </string-array>
+
+
+    <string-array name="names2">
+        <item>Select Department</item>
+        <item>IT</item>
+        <item>CO</item>
+        <item>EC</item>
+        <item>CE</item>
+        <item>ME</item>
+        <item>IS</item>
+        <item>EE</item>
+    </string-array>
+
+    <string-array name="shifts2">
+        <item>Select shift</item>
+        <item>First</item>
+        <item>Second</item>
+    </string-array>
+
+    <string-array name="year2">
+        <item>Select year</item>
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+    </string-array>
+
+    <string-array name="yearNumber2">
+        <item>Select Admission Year</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+    </string-array>
+
+
+    <string-array name="yearText2">
+        <item>Select admission year</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+    </string-array>
+
+    <string-array name="sem">
+        <item>Select Sem</item>
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Forth</item>
+        <item>Fifth</item>
+        <item>Sixth</item>
+    </string-array>
+
+    <string-array name="subjects">
+        <item>Select Subject</item>
+        <item>SE</item>
+        <item>IS</item>
+        <item>AJava</item>
+        <item>Python</item>
+    </string-array>
+
+    <string-array name="loc">
+        <item>Lecture or Practical</item>
+        <item>Lecture</item>
+        <item>Practical</item>
+    </string-array>
+    <string name="title_activity_tp">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="hint_list_of_students_will_be_generated_according_to_the_department_you_teach">Hint : List of students will be generated according to the department you teach</string>
+
+
+    <string-array name="teacher_dept">
+        <item>Select Department</item>
+        <item>Information Technology</item>
+        <item>Computer Engineering</item>
+        <item>Electronics Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Instrumentation Engineering</item>
+        <item>Rubber Technology</item>
+    </string-array>
+
+
+</resources>

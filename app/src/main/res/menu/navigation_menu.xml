@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/navAccount"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Account" />
+    <item
+        android:id="@+id/navResult"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Result" />
+    <item
+        android:id="@+id/navSettings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/navLogout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Log out" />
+</menu>

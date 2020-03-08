@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="wrap_content"
+    tools:context=".CheckDetailsDialog">
+
+
+    <ProgressBar
+        android:id="@+id/progressBarDetails"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Check the details"
+        android:textColor="@color/Black"
+        android:textSize="21sp" />
+
+
+    <TextView
+        android:id="@+id/details_dept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Department : "
+        android:textColor="@color/Black"
+        android:textSize="17sp" />
+
+
+    <TextView
+        android:id="@+id/details_shift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Shift : "
+        android:textColor="@color/Black"
+        android:textSize="17sp" />
+
+
+    <TextView
+        android:id="@+id/details_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Year : "
+        android:textColor="@color/Black"
+        android:textSize="17sp" />
+
+
+    <TextView
+        android:id="@+id/details_adYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Admission Year : "
+        android:textColor="@color/Black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/details_tfws"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="TFWS :"
+        android:textColor="@color/Black"
+        android:textSize="17sp" />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dialog_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+
+            android:layout_marginBottom="10dp"
+            android:text="Edit "
+            android:textAllCaps="true"
+            android:textColor="@color/linkBlue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/dialog_confirm_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="Confirm"
+            android:textAllCaps="true"
+            android:textColor="@color/linkBlue"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

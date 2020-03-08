@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/NoticeToolbar"
+    android:background="@color/textTabBrigth"
+    android:elevation="4dp"
+    android:theme="@style/DrawerArrowStyle"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:title="Add Notice"
+    android:screenOrientation="portrait"
+    app:titleTextColor="@color/common_google_signin_btn_text_dark_focused">
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navNotice"
+        android:icon="@drawable/ic_note_black_24dp"
+        android:title="Notice" />
+    <item
+        android:id="@+id/navNotes"
+        android:icon="@android:drawable/ic_menu_upload_you_tube"
+        android:title="Notes"
+        android:visible="true" />
+    <item
+        android:id="@+id/navNotification"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notification"
+        tools:icon="@android:drawable/ic_dialog_email" />
+</menu>

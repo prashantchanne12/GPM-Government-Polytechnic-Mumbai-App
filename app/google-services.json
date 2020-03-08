@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "166917398967",
+    "firebase_url": "https://firestorepractice-d2963.firebaseio.com",
+    "project_id": "firestorepractice-d2963",
+    "storage_bucket": "firestorepractice-d2963.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166917398967:android:9a7beba088e61b57",
+        "android_client_info": {
+          "package_name": "com.prashantchanne.chatbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166917398967-jtis791oduqi2jau8kh8sui03t2j689v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prashantchanne.chatbox",
+            "certificate_hash": "47e06eca3bf286882149418decbfbc76be933535"
+          }
+        },
+        {
+          "client_id": "166917398967-obmm6rg89bdie6tuokl9c0r6tvbtu0cu.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "166917398967-obmm6rg89bdie6tuokl9c0r6tvbtu0cu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI4L7_AT3gLgHQ0NgOSnuF-m5MxhfpL8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166917398967-obmm6rg89bdie6tuokl9c0r6tvbtu0cu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166917398967:android:2a2de9683d432ef0",
+        "android_client_info": {
+          "package_name": "com.prashantchanne.chatup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166917398967-ua8kk3la1ucpsr8m6hdenqcpmlhvrum2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prashantchanne.chatup",
+            "certificate_hash": "47e06eca3bf286882149418decbfbc76be933535"
+          }
+        },
+        {
+          "client_id": "166917398967-obmm6rg89bdie6tuokl9c0r6tvbtu0cu.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "166917398967-obmm6rg89bdie6tuokl9c0r6tvbtu0cu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI4L7_AT3gLgHQ0NgOSnuF-m5MxhfpL8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166917398967-obmm6rg89bdie6tuokl9c0r6tvbtu0cu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166917398967:android:755972514f45403f",
+        "android_client_info": {
+          "package_name": "com.prashantchanne.firestorepractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166917398967-2sf8lkidr8nsoj6l7p5gv7bn85j9ed34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prashantchanne.firestorepractice",
+            "certificate_hash": "47e06eca3bf286882149418decbfbc76be933535"
+          }
+        },
+        {
+          "client_id": "166917398967-obmm6rg89bdie6tuokl9c0r6tvbtu0cu.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "166917398967-obmm6rg89bdie6tuokl9c0r6tvbtu0cu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI4L7_AT3gLgHQ0NgOSnuF-m5MxhfpL8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166917398967-obmm6rg89bdie6tuokl9c0r6tvbtu0cu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

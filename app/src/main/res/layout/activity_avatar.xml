@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AvatarActivity"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/avatarProgress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Select Your Avatar"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/captainButton"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:backgroundTint="@color/colorAccent"
+            android:elevation="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/captainamerica" />
+
+        <ImageButton
+            android:id="@+id/wwButton"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:backgroundTint="@color/colorAccent"
+            android:elevation="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wonderwoman" />
+
+        <ImageButton
+            android:id="@+id/flashButton"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginRight="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:backgroundTint="@color/colorAccent"
+            android:elevation="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/theflash" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/spidermanButton"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:layout_marginRight="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:backgroundTint="@color/colorAccent"
+            android:elevation="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/spiderman" />
+
+
+        <ImageButton
+            android:id="@+id/incrediblesButton"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:backgroundTint="@color/colorAccent"
+            android:elevation="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/incredibles" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/avatarUsername"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input_background"
+            android:hint="Username Ex. John Snow"
+            android:inputType="text"
+            android:padding="12dp"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/avatarSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_border_radius"
+            android:backgroundTint="@color/colorAccent"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/background_color"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

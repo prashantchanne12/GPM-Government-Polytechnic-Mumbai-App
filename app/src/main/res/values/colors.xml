@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4285f4</color>
+    <color name="colorPrimaryDark">#dcdcdc</color>
+    <color name="colorAccent">#4285f4</color>
+
+    <color name="textTabLight">#fdfdfd</color>
+    <color name="textTabBrigth">#ffffff</color>
+
+    <color name="border">#c9f2ff</color>
+
+    <color name="grey">#f5f5f5</color>
+
+    <color name="blue1">#66a3ff</color>
+    <color name="blue2">#0033cc</color>
+    <color name="Black">#000000</color>
+    <color name="linkBlue">#4d94ff</color>
+
+    <color name="background_color">#fcfcfc</color>
+    <color name="light_grey_line">#ededed</color>
+    <color name="deep_purple">#7c4dff</color>
+    <color name="material_yellow">#ffb300</color>
+    <color name="material_green">#00bfa5</color>
+    <color name="pink_accent">#ff4081</color>
+
+    <color name="green">#f28951</color>
+    <color name="green2">#43dcf1</color>
+
+    <color name="trans_green2">#f37c4dff</color>
+    <color name="trans_material_green">#f000bfa5</color>
+    <color name="trans_blue">#f00050bf</color>
+    <color name="trans_reddish">#f3bf004c</color>
+    <color name="trans_oranges">#f3f28951</color>
+    <color name="trans_yellow">#faffb300</color>
+    <color name="trans_pink_accent">#f3ff4081</color>
+    <color name="trans">#f300bf69</color>
+</resources>

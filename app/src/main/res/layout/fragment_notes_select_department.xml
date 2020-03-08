@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotesSelectDepartmentFragment"
+    android:padding="15dp"
+    android:layout_marginTop="47dp"
+    android:screenOrientation="portrait">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="10dp"
+                android:id="@+id/it_card"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:backgroundTint="@color/cardview_shadow_start_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/activity_background">
+
+                    <ImageView
+                        android:id="@+id/im1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.9"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/back"
+                        android:tint="@color/trans_green2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/im1"
+                        android:layout_alignTop="@id/im1"
+                        android:layout_alignRight="@id/im1"
+                        android:layout_alignBottom="@id/im1"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="Information Technology"
+                        android:textColor="@color/background_color"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/co_card"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/cardview_shadow_start_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/activity_background">
+
+                    <ImageView
+                        android:id="@+id/im2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.9"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/back"
+                        android:tint="@color/trans_material_green" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/im2"
+                        android:layout_alignTop="@id/im2"
+                        android:layout_alignRight="@id/im2"
+                        android:layout_alignBottom="@id/im2"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="Computer Engineering"
+                        android:textColor="@color/background_color"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ce_card"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/cardview_shadow_start_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/activity_background">
+
+                    <ImageView
+                        android:id="@+id/im3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.9"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/back"
+                        android:tint="@color/trans_blue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/im3"
+                        android:layout_alignTop="@id/im3"
+                        android:layout_alignRight="@id/im3"
+                        android:layout_alignBottom="@id/im3"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="Civil Engineering"
+                        android:textColor="@color/background_color"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ec_card"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/cardview_shadow_start_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/activity_background">
+
+                    <ImageView
+                        android:id="@+id/im4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.9"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/back"
+                        android:tint="@color/trans_reddish" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/im4"
+                        android:layout_alignTop="@id/im4"
+                        android:layout_alignRight="@id/im4"
+                        android:layout_alignBottom="@id/im4"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="Electronics Engineering"
+                        android:textColor="@color/background_color"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/me_card"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/cardview_shadow_start_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/activity_background">
+
+                    <ImageView
+                        android:id="@+id/im5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.9"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/back"
+                        android:tint="@color/trans_oranges" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/im5"
+                        android:layout_alignTop="@id/im5"
+                        android:layout_alignRight="@id/im5"
+                        android:layout_alignBottom="@id/im5"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="Mechanical Engineering"
+                        android:textColor="@color/background_color"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ee_card"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/cardview_shadow_start_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/activity_background">
+
+                    <ImageView
+                        android:id="@+id/im6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.9"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/back"
+                        android:tint="@color/trans_yellow" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/im6"
+                        android:layout_alignTop="@id/im6"
+                        android:layout_alignRight="@id/im6"
+                        android:layout_alignBottom="@id/im6"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="Electrical Engineering"
+                        android:textColor="@color/background_color"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/is_card"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/cardview_shadow_start_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/activity_background">
+
+                    <ImageView
+                        android:id="@+id/im7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.9"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/back"
+                        android:tint="@color/trans_pink_accent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/im7"
+                        android:layout_alignTop="@id/im7"
+                        android:layout_alignRight="@id/im7"
+                        android:layout_alignBottom="@id/im7"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="Instrumentation Engineering"
+                        android:textColor="@color/background_color"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/rt_card"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/cardview_shadow_start_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/activity_background">
+
+                    <ImageView
+                        android:id="@+id/im8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.9"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/back"
+                        android:tint="@color/trans" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/im8"
+                        android:layout_alignTop="@id/im8"
+                        android:layout_alignRight="@id/im8"
+                        android:layout_alignBottom="@id/im8"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"                        android:text="Rubber Technology"
+                        android:textColor="@color/background_color"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

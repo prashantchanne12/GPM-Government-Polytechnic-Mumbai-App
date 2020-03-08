@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/background_light"
+    android:minHeight="?attr/actionBarSize"
+    android:elevation="4dp"
+    android:theme="@style/DrawerArrowStyle"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:screenOrientation="portrait">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/counterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="0 item selected"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

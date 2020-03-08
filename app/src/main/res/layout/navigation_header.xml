@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="304dp"
+    android:layout_height="176dp"
+    android:alpha="0.85"
+    android:background="@drawable/nav_cover"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:screenOrientation="portrait">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:src="@drawable/default_image"
+        android:id="@+id/nav_profile_image"/>
+
+    <TextView
+        android:id="@+id/nav_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_marginLeft="5dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nav_email_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingTop="1dp"
+        android:layout_marginLeft="5dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/light_grey_line"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
