@@ -1,6 +1,6 @@
 # Government Polytechnic Mumbai App
 
-The Android App is designed to enhance the college experience. It simplifies notice circulation, note sharing, and attendance management, ensuring students stay informed and organized, all through their Android devices.
+An Android App designed to enhance the college experience. It simplifies notice circulation, note sharing, and attendance management, ensuring students stay informed and organized, all through their Android devices.
 
 ---
 
